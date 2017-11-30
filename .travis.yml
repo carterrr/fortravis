@@ -5,7 +5,5 @@ node_js:
  - '9.2.0'
  - '8.9.0'
  
-script: 
- - npm run cover
- after_success:
- - npm run coveralls
+script: npm run cover
+after_success: npm run coveralls
