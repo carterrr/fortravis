@@ -1,9 +1,10 @@
 language: node_js
 repo_token: N8UiMtOlMlHwiSVAMahsSGmBZS1r0wFMW
 node_js:
- - '8.9.1'
- - '9.2.0'
- - '8.9.0'
- 
-script: npm run cover
-after_success: npm run coveralls
+- '8.9.1'
+- '9.2.0'
+- '8.9.0'
+script:
+- npm run cover
+after_success:
+- npm run coveralls
